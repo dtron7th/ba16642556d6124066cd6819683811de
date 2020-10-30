@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cairo', sans-serif;
+}
+
+@font-face {
+    src: url(/Fonts/Helvetica.ttf);
+    font-family: Helvetica;
+}
+
+@font-face {
+    src: url(/Fonts/OpenSans-Light.ttf);
+    font-family: OpenSans-Light;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #e6e6e6;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #acacac;
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #999999;
+}

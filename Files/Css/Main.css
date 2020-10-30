@@ -1,0 +1,94 @@
+.Main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(/Files/Images/cropped-1920-1080-705512.jpg);
+    background-size: cover;
+    position: absolute;
+}
+
+.Main > .Title {
+    position: absolute;
+    top: 120px;
+    text-align: center;
+}
+
+.Main > .Title > p {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(207, 207, 207);
+}
+
+.Main > .Title > input {
+    width: 400px;
+    padding: 7px;
+    border-radius: 50px;
+    border: rgba(255, 255, 255, 0.048);
+}
+
+.Main > .Title > .Counters {
+    font-weight: 100px;
+    font-size: 12px;
+    color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+}
+
+.Main > .Title > .Counters > .Counter {
+    margin: 15px;
+    cursor: pointer;
+    transform: translate(0, 25px);
+    transition: ease-in 100ms;
+}
+
+.Main > .Title > .Counters > .Counter > .Counter_Title {
+    margin-bottom: 5px;
+}
+
+.Main > .Title > .Counters > .Counter:hover {
+    color: rgb(59, 150, 153);
+}
+
+.Main > .Discord {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.Main > .Discord > a > button {
+    width: 220px;
+    height: 60px;
+    background: none;
+    color: rgb(209, 209, 209);
+    outline: none;
+    border: 2px solid rgb(177, 177, 177);
+    font-size: 15px;
+    cursor: pointer;
+    transition: ease-in-out 100ms;
+}
+
+.Main > .Discord > a > button:hover {
+    background-color: rgba(122, 122, 122, 0.555);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(141, 141, 141);
+}
+
+.Main > .Discord > img {
+    position: absolute;
+    margin-left: 30px;
+    height: 60px;
+}
+
+
+
+.Main > .Sub_Title {
+    position: absolute;
+    bottom: 35px;
+}
+
+.Main > .Sub_Title > p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
